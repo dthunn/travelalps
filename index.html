@@ -76,13 +76,13 @@
         </div>
       </li>
       <li>
-        
+
         <img src="img/alp3darker.jpg">
         <div class="caption right-align">
           <h2>Tours in Eight Countries</h2>
           <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur
             adipisicing elit. </h5>
-          </div>
+        </div>
       </li>
     </ul>
   </section>
@@ -122,9 +122,10 @@
       <div class="row">
         <div class="col s10 offset-s1 m6 offset-m3">
           <h5>Subscribe for Deals Now!</h5>
-          <form>
+          <form name="contact" method="POST" data-netlify="true">
             <div class="input-field">
-              <input type="text" class="grey lighten-5 indigo-text" id="subscribe" placeholder=" email">
+              <input type="email" name="email" class="grey lighten-5 indigo-text" id="subscribe" placeholder=" email"
+                required>
             </div>
             <input type="submit" value="Submit" class="btn indigo">
           </form>
